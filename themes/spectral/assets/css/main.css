@@ -1,5 +1,6 @@
 :root {
   --main-background-color: black;
+  --fontfamily: 'Calibri';
 }
 
 @import url(font-awesome.min.css);
@@ -7,7 +8,7 @@
 /* https://google-webfonts-helper.herokuapp.com/fonts/open-sans */
 /* open-sans-regular - latin */
 @font-face {
-  font-family: 'Open Sans';
+  font-family: var(--fontfamily);
   font-style: normal;
   font-weight: 400;
   src: local('Open Sans Regular'), local('OpenSans-Regular'),
@@ -17,7 +18,7 @@
 
 /* open-sans-italic - latin */
 @font-face {
-  font-family: 'Open Sans';
+  font-family: var(--fontfamily);
   font-style: italic;
   font-weight: 400;
   src: local('Open Sans Italic'), local('OpenSans-Italic'),
@@ -27,7 +28,7 @@
 
 /* open-sans-600 - latin */
 @font-face {
-  font-family: 'Open Sans';
+  font-family: var(--fontfamily);
   font-style: normal;
   font-weight: 600;
   src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
@@ -37,7 +38,7 @@
 
 /* open-sans-600italic - latin */
 @font-face {
-  font-family: 'Open Sans';
+  font-family: var(--fontfamily);
   font-style: italic;
   font-weight: 600;
   src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'),
@@ -47,7 +48,7 @@
 
 /* open-sans-800 - latin */
 @font-face {
-  font-family: 'Open Sans';
+  font-family: var(--fontfamily);
   font-style: normal;
   font-weight: 800;
   src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
@@ -57,7 +58,7 @@
 
 /* open-sans-800italic - latin */
 @font-face {
-  font-family: 'Open Sans';
+  font-family: var(--fontfamily);
   font-style: italic;
   font-weight: 800;
   src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'),
