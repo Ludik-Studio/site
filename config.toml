@@ -1,12 +1,12 @@
 baseURL = "/"
-title = "KONA"
+title = "LUDIK"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 paginate = "7"
 theme = "spectral"
 
 [params]
-fancyTitle = "KONA" # title for frontpage, may include image
+fancyTitle = "LUDIK" # title for frontpage, may include image
 copyright = "Konstantina Angeletou"
 description = ""
 #startbuttonText = ""
