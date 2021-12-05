@@ -46,18 +46,18 @@ enable = true
 
 [[params.two.section]]
 img = "img/pic01.jpg"
-title = 'Project 1<br /> title'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+title = 'Performing Ornaments<br /> title'
+body = 'An interactive installation, where the visitors can create visuals while dancing with their hands'
 
 [[params.two.section]]
 img = "img/pic02.jpg"
-title = 'Tortor dolore feugiat<br />elementum magna'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+title = 'Live Visuals Performance'
+body = 'Performing live for a dj set by Shamanic Boy at Schmiede 2021'
 
 [[params.two.section]]
 img = "img/pic03.jpg"
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+title = 'Herrin Gedeck'
+body = 'A visual and sound performance'
 
 [params.three]
 enable = true
