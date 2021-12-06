@@ -1,12 +1,12 @@
 baseURL = "/"
-title = "KONA"
+title = "LUDIK"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 paginate = "7"
 theme = "spectral"
 
 [params]
-fancyTitle = "KONA" # title for frontpage, may include image
+fancyTitle = "LUDIK" # title for frontpage, may include image
 copyright = "Konstantina Angeletou"
 description = ""
 #startbuttonText = ""
@@ -45,19 +45,19 @@ label = "Dolor"
 enable = true
 
 [[params.two.section]]
-img = "img/pic01.jpg"
-title = 'Project 1<br /> title'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+img = "_MG_9084_supersmall.jpg"
+title = 'Performing Ornaments'
+body = 'An interactive installation, where the visitors can create visuals while dancing with their hands'
 
 [[params.two.section]]
-img = "img/pic02.jpg"
-title = 'Tortor dolore feugiat<br />elementum magna'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+img = "yard super small2.png"
+title = 'Live Visuals Performance'
+body = 'Performing live for a dj set by Shamanic Boy at Schmiede 2021'
 
 [[params.two.section]]
-img = "img/pic03.jpg"
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+img = "herrin super small2.png"
+title = 'Herrin Gedeck'
+body = 'Herrin Gedeck joins female artists of various backgrounds in one performance installation exploring communication between visuals, music, sound, haiku and the body. Artists: Anna Gerlach, Konstantina Angeletou, Margarethe Maierhofer-Lischka, Sveta Schwin, Eva Esmann Behrens, Eliza Struthers Jobin. September 2021'
 
 [params.three]
 enable = true
