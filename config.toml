@@ -45,19 +45,19 @@ label = "Dolor"
 enable = true
 
 [[params.two.section]]
-img = "_MG_9084_supersmall.jpg"
-title = 'Performing Ornaments'
+img = "img/pic01.jpg"
+title = 'Performing Ornaments<br /> title'
 body = 'An interactive installation, where the visitors can create visuals while dancing with their hands'
 
 [[params.two.section]]
-img = "yard super small2.png"
+img = "img/pic02.jpg"
 title = 'Live Visuals Performance'
 body = 'Performing live for a dj set by Shamanic Boy at Schmiede 2021'
 
 [[params.two.section]]
-img = "herrin super small2.png"
+img = "img/pic03.jpg"
 title = 'Herrin Gedeck'
-body = 'Herrin Gedeck joins female artists of various backgrounds in one performance installation exploring communication between visuals, music, sound, haiku and the body. Artists: Anna Gerlach, Konstantina Angeletou, Margarethe Maierhofer-Lischka, Sveta Schwin, Eva Esmann Behrens, Eliza Struthers Jobin. September 2021'
+body = 'A visual and sound performance'
 
 [params.three]
 enable = true
