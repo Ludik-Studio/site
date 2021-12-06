@@ -45,12 +45,6 @@ label = "Dolor"
 enable = true
 
 [[params.two.section]]
-img = "img/pic01.jpg"
-title = 'Performing Ornaments<br /> title'
-body = 'An interactive installation, where the visitors can create visuals while dancing with their hands'
-
-
-[[params.two.section]]
 img = "_MG_9084_supersmall.jpg"
 title = 'Performing Ornaments'
 body = 'An interactive installation, where the visitors can create visuals while dancing with their hands'
