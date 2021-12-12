@@ -22,9 +22,9 @@ url = '/posts/'
 title = "Posts"
 
 [params.one]
-enable = true
-title = 'Arcu aliquet vel lobortis ata nisl<br />eget augue amet aliquet nisl cep donec'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.'
+enable = false
+title = ''
+body = ''
 
 [[params.one.icon]]
 icon = "fa-diamond"
@@ -59,6 +59,9 @@ img = "herrin super small2.png"
 title = 'Herrin Gedeck'
 body = 'Herrin Gedeck joins female artists of various backgrounds in one performance installation exploring communication between visuals, music, sound, haiku and the body. Artists: Anna Gerlach, Konstantina Angeletou, Margarethe Maierhofer-Lischka, Sveta Schwin, Eva Esmann Behrens, Eliza Struthers Jobin. September 2021'
 
+[params.three]
+enable = false
+
 [[params.three.feature]]
 icon = "fa-paper-plane-o"
 title = "Arcu accumsan"
@@ -90,7 +93,7 @@ title = "Nothing important"
 body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
 
 [params.cta]
-enable = true
+enable = false
 title = "Arcue ut vel commodo"
 body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
 
@@ -105,7 +108,7 @@ text = "Learn More"
 special = false
 
 [params.contact]
-enable = true
+enable = false
 title = "Contact"
 body = "Leave us a message."
 phone = "+49 (0) 030 000 000"
