@@ -21,6 +21,34 @@ title = "Home"
 url = '/posts/'
 title = "Posts"
 
+[params.carousel]
+enable = true
+
+[[params.carousel.image]]
+img='/carousel/h-heyerlein-riYdn15o96U-unsplash.jpg'
+alt=''
+description=''
+
+[[params.carousel.image]]
+img='/carousel/solen-feyissa-bV4Pu03n6ig-unsplash.jpg'
+alt=''
+description=''
+
+[[params.carousel.image]]
+img='/carousel/martin-sanchez-gwJ8VFGqhPk-unsplash.jpg'
+alt=''
+description=''
+
+[[params.carousel.image]]
+img='/carousel/solen-feyissa-jyaDPc36ayo-unsplash.jpg'
+alt=''
+description=''
+
+[[params.carousel.image]]
+img='/carousel/solen-feyissa-bV4Pu03n6ig-unsplash.jpg'
+alt=''
+description=''
+
 [params.one]
 enable = false
 title = ''

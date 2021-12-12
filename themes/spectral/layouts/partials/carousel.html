@@ -1,0 +1,15 @@
+{{ if .Site.Params.carousel.enable }}
+<section id="carousel" class="wrapper style4">
+    <div class="carousel" data-flickity='{ "lazyLoad": true }'>
+
+      {{ range .Site.Params.carousel.image }}
+      <div class="carousel-cell">
+        <img class="carousel-cell-image"
+          data-flickity-lazyload="{{ .img | relURL }}" alt="" />
+      </div>
+      {{ end }}
+
+
+    </div>
+</section>
+{{ end }}
