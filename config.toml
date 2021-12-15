@@ -141,14 +141,14 @@ title = "Contact"
 body = "Leave us a message."
 phone = "+49 (0) 030 000 000"
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
-email = "kona@example.com"
+email = "hello@ludik.studio"
 subject = "New Submission!"
 plain = false
 
 [params.social]
 twitter = ""
-facebook = "koko"
-instagram = ""
+facebook = "ludik.studio"
+instagram = "ludik.studio"
 dribble = ""
 
 # language specific options
