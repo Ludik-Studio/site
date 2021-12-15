@@ -5,7 +5,7 @@
       {{ range .Site.Params.carousel.image }}
       <div class="carousel-cell">
         <img class="carousel-cell-image"
-          data-flickity-lazyload="{{ .img | relURL }}" alt="" />
+          data-flickity-lazyload="{{ .img | relURL }}" alt="{{.alt}}" />
       </div>
       {{ end }}
 
