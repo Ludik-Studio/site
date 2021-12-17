@@ -7,8 +7,6 @@
 
 /* https://google-webfonts-helper.herokuapp.com/fonts/roboto?subsets=latin */
 
-/* roboto-regular - latin */
-/* roboto-regular - latin */
 /* koho-regular - latin */
 @font-face {
 	font-family: 'KoHo';
@@ -118,6 +116,18 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+/* LOGO */
+
+#logo-container img {
+	width: 100%;
+	min-width: 50%;
+	height: auto;
+	position: fixed;
+	top:28px; 
+	left:13px;
+ }
+ 
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -3556,6 +3566,7 @@ input, select, textarea {
 		-ms-transform: translateX(0);
 		transform: translateX(0);
 	}
+	
 
 /* Header */
 
