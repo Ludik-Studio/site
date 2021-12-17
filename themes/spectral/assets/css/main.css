@@ -301,7 +301,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1em;
 		line-height: 1.25em;
-		/** font-family: 'KoHo'; *//
+		/** font-family: 'KoHo'; */
 	}
 
 		@media screen and (max-width: 736px) {
@@ -2797,7 +2797,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-    margin: 2em;
+    	margin: 2em 12em;
 	}
 
 		.spotlight .image {
@@ -2815,12 +2815,12 @@ input, select, textarea {
 			}
 
 		.spotlight .content {
-			padding: 2em 4em 0.1em 4em ;
+			padding: 1em 1em;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
-			max-width: 48em;
+			max-width: 88em;
 			width: 60%;
 		}
 
@@ -2832,7 +2832,7 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: hsla(176, 41%, 25%, 0.31);
 		}
 
 		.spotlight:nth-child(2) {
@@ -3105,7 +3105,14 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: var(--main-background-color);
+		  	background: url("https://github.com/Ludik-Studio/site/blob/main/static/2/bg-rectangle.jpg?raw=true");
+			  opacity: 0.8;
+			background-color: #000000; /* Used if the image is unavailable */
+			height: auto; /* You must set a specified height */
+			background-position: center; /* Center the image */
+			background-repeat: no-repeat; /* Do not repeat the image */
+			background-size: cover; /* Resize the background image to cover the entire 
+									container */
 		}
 
 		.wrapper.style3 {

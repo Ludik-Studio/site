@@ -1,6 +1,7 @@
 {{ if .Site.Params.two.enable }}
 {{ $md := .Params.body_is_markdown | default "false" }}
 <section id="two" class="wrapper alt style2">
+  <h2 style="color:white; margin:10px; padding-left:12em; padding-top:3em">Performances</h2>
   {{ range .Site.Params.two.section }}
 	<section class="spotlight">
     <div class="image">
