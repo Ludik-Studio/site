@@ -194,6 +194,91 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+/* aboutme */
+
+.aboutme {
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	margin: 2em 12em;
+	border: 0px solid rgb(65, 9, 97);
+	border-radius: 0px;
+	min-width: 300px;
+}
+	.aboutme .image {
+		-moz-order: 1;
+		-webkit-order: 1;
+		-ms-order: 1;
+		order: 1;
+		border-radius: 0px;
+		/**max-width: 20em;**/
+		padding: 0em;
+		object-fit: fill;
+	}
+
+	.aboutme .image img {
+		border-radius: 0px 0 0 0px;
+		width: 100%;
+	}
+
+	.aboutme .content {
+		padding: 1em 1em;
+		-moz-order: 2;
+		-webkit-order: 2;
+		-ms-order: 2;
+		order: 2;
+		/**max-width: 88em;**/
+		width: 100%;
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		.aboutme .image {
+			width: 45%;
+		}
+
+		.aboutme .content {
+			width: 55%;
+		}
+		@media screen and (max-width: 980px) {
+
+			.aboutme {
+				display: block;
+			}
+
+				.aboutme br {
+					display: none;
+				}
+
+				.aboutme .image {
+					width: 100%;
+				}
+
+				.aboutme .content {
+					padding: 4em 3em 2em 3em ;
+					max-width: none;
+					text-align: center;
+					width: 100%;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.aboutme .content {
+				padding: 3em 2em 1em 2em ;
+			}
+
+		}
+
+	}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -315,7 +400,7 @@ input, select, textarea {
 		}
 
 	h3 {
-		font-size: 1.15em;
+		font-size: 1.5em;
 		line-height: 1.75em;
 	}
 
@@ -2786,6 +2871,12 @@ input, select, textarea {
 
 			}
 
+
+
+
+
+
+
 /* Spotlight */
 
 	.spotlight {
@@ -2798,6 +2889,9 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
     	margin: 2em 12em;
+		border: 2px solid rgb(65, 9, 97);
+		border-radius: 0px;
+		min-width: 300px;
 	}
 
 		.spotlight .image {
@@ -2805,12 +2899,14 @@ input, select, textarea {
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
-			border-radius: 0;
-			width: 30%;
+			border-radius: 0px;
+			/**max-width: 20em;**/
+			padding: 0em;
+			object-fit: fill;
 		}
 
 			.spotlight .image img {
-				border-radius: 0;
+				border-radius: 0px 0 0 0px;
 				width: 100%;
 			}
 
@@ -2820,8 +2916,8 @@ input, select, textarea {
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
-			max-width: 88em;
-			width: 60%;
+			/**max-width: 88em;**/
+			width: 100%;
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2832,19 +2928,19 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: hsla(176, 41%, 25%, 0.31);
+			background-color: hsla(174, 46%, 33%, 0.76);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgba(42, 10, 102, 0.664);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgba(42, 10, 102, 0.664);
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
+			background-color: rgba(42, 10, 102, 0.664);
 		}
 
 		.spotlight:nth-child(5) {
@@ -3714,7 +3810,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		cursor: default;
-		height: 100vh;
+		max-height: 100vh;
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
@@ -3739,10 +3835,10 @@ input, select, textarea {
 		}
 
 			#banner h2:before, #banner h2:after {
-				-moz-transition: width 0.85s ease;
-				-webkit-transition: width 0.85s ease;
-				-ms-transition: width 0.85s ease;
-				transition: width 0.85s ease;
+				-moz-transition: width 0.25s ease;
+				-webkit-transition: width 0.25s ease;
+				-ms-transition: width 0.25s ease;
+				transition: width 0.25s ease;
 				-moz-transition-delay: 0.25s;
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
@@ -4010,6 +4106,15 @@ input, select, textarea {
 	body.is-mobile #main > header {
 		background-attachment: scroll;
 	}
+
+/* About */
+div.picture1 {
+	width:300px; /*width of your image*/
+	height:auto; height of your image*/
+	background: url("https://github.com/Ludik-Studio/site/blob/main/static/3/me.jpg?raw=true");
+	margin:0; /* If you want no margin */
+	padding:0; /*if your want to padding */
+ }
 
 /* Footer */
 
