@@ -2983,6 +2983,8 @@ input, select, textarea {
 
 			.spotlight {
 				display: block;
+				margin:unset;
+				margin-bottom:2em;
 			}
 
 				.spotlight br {
