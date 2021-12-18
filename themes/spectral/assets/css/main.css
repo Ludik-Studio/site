@@ -127,7 +127,33 @@
 	top:28px; 
 	left:13px;
  }
- 
+
+ #fb-container img {
+	width: 100%;
+	min-width: 50%;
+	height: auto;
+	position: fixed;
+	top:210px; 
+	left:41px;
+ }
+
+ #insta-container img {
+	width: 100%;
+	min-width: 50%;
+	height: auto;
+	position: fixed;
+	top:280px; 
+	left:41px;
+ }
+
+ #tube-container img {
+	width: 100%;
+	min-width: 50%;
+	height: auto;
+	position: fixed;
+	top:350px; 
+	left:41px;
+ }
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
