@@ -2914,7 +2914,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-    	margin: 2em 12em;
+    	margin: 1em 12em 2em 12em;
 		border: 2px solid rgb(65, 9, 97);
 		border-radius: 0px;
 		min-width: 300px;
@@ -3041,7 +3041,8 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 6em 0em ;
+		margin: 4em 0em 0em 0em;
 	}
 
 		.wrapper > .inner {
@@ -3066,7 +3067,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			padding: 0;
+			padding: 6em 0em;
 		}
 
 		.wrapper.style1 {
@@ -3229,13 +3230,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-		  	background: url("https://github.com/Ludik-Studio/site/blob/main/static/2/bg-rectangle.jpg?raw=true");
-			  opacity: 0.8;
+		  	background: url("https://github.com/Ludik-Studio/site/blob/main/static/2/BG%20EDITED-32.jpg?raw=true");
+			opacity: 1;
 			background-color: #000000; /* Used if the image is unavailable */
 			height: auto; /* You must set a specified height */
 			background-position: center; /* Center the image */
 			background-repeat: no-repeat; /* Do not repeat the image */
-			background-size: cover; /* Resize the background image to cover the entire 
+			background-size: auto; /* Resize the background image to cover the entire 
 									container */
 		}
 
