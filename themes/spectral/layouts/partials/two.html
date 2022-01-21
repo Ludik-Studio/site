@@ -1,14 +1,14 @@
 {{ if .Site.Params.two.enable }}
 {{ $md := .Params.body_is_markdown | default "false" }}
 <section id="two" class="wrapper alt style2">
-  <h3 style="color:white; margin:10px; padding-left:7.6em; padding-top:0em;">Performances</h3>
+  <h2 style="color:white; margin:10px; padding-left:6.5em; padding-top:0em;">Performances</h2>
   {{ range .Site.Params.two.section }}
 	<section class="spotlight">
     <div class="image">
       <img class="lozad" data-src="{{ .img | relURL }}" alt="" />
     </div>
     <div class="content">
-      <h2>{{ .title | safeHTML }}</h2>
+      <h3>{{ .title | safeHTML }}</h3>
       {{ if $md }}
       {{ .body | markdownify }}
       {{ else }}
