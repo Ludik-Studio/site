@@ -85,7 +85,18 @@ body = 'Performing live for a dj set by Shamanic Boy at Schmiede 2021'
 [[params.two.section]]
 img = "2/3.png"
 title = 'Herrin Gedeck'
-body = 'Herrin Gedeck joins female artists of various backgrounds in one performance installation exploring communication between visuals, music, sound, haiku and the body. Artists: Anna Gerlach, Konstantina Angeletou, Margarethe Maierhofer-Lischka, Sveta Schwin, Eva Esmann Behrens, Eliza Struthers Jobin. September 2021'
+body_is_markdown = true
+body = '''
+Herrin Gedeck joins female artists of various backgrounds in one performance installation exploring communication between visuals, music, sound, haiku and the body.
+\
+\
+Artists:
+Anna Gerlach, Konstantina Angeletou, Margarethe Maierhofer-Lischka, Sveta Schwin, Eva Esmann Behrens, Eliza Struthers Jobin.
+\
+\
+[youtube video](https://example.org/)
+September 2021
+'''
 
 [params.three]
 enable = true
