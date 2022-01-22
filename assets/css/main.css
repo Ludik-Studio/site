@@ -1760,7 +1760,9 @@ button,
       width: 55%; } }
   @media screen and (max-width: 980px) {
     .spotlight {
-      display: block; }
+      display: block;
+      margin: unset;
+      margin-bottom: 2em; }
       .spotlight br {
         display: none; }
       .spotlight .image {
@@ -1888,7 +1890,7 @@ button,
       .wrapper.style1 .features li {
         border-top-color: rgba(0, 0, 0, 0.125); } }
   .wrapper.style2 {
-    background-image: url("/images/background-1.jpg");
+    background-image: url("/images/index/background-1.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -2098,6 +2100,12 @@ button,
   @media screen and (max-width: 736px) {
     .wrapper {
       padding: 3em 2em 1em 2em ; } }
+
+section.wrapper > header {
+  margin: 1em 12em 2em; }
+  @media screen and (max-width: 980px) {
+    section.wrapper > header {
+      margin: 1em 2em 2em; } }
 
 /* Page Wrapper + Menu */
 #page-wrapper {
@@ -2423,6 +2431,11 @@ body.is-preload #banner .more {
 body.is-preload #banner:after {
   opacity: 1; }
 
+/* Performances */
+#performances {
+  margin-top: 4em;
+  padding-top: 4em; }
+
 /* CTA */
 #cta .inner {
   display: -moz-flex;
@@ -2539,6 +2552,14 @@ body.is-mobile #main > header {
     #footer {
       padding: 3em 2em 1em 2em ; } }
 
+/* Carousel */
+.carousel {
+  background: #000; }
+
+.carousel img {
+  display: block;
+  height: 200px; }
+
 /* Landing */
 body.landing .fixed-menu {
   overflow: hidden;
@@ -2567,5 +2588,10 @@ body.is-mobile.landing #page-wrapper {
   background: none; }
 body.is-mobile.landing #footer {
   background-color: black; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
 
 /*# sourceMappingURL=main.css.map */

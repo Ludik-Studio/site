@@ -11,6 +11,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <noscript>
     <link rel="stylesheet" href="assets/css/noscript.css" />
   </noscript>
@@ -45,7 +46,7 @@
     </div>
 
     <!-- Header -->
-    <header id="header" class="alt">
+    <header id="header" class="alt" style="display: none;">
       <!-- <h1><a href="index.html">Ludik</a></h1> -->
       <nav id="nav">
         <ul>
@@ -65,34 +66,39 @@
 
     <!-- Banner -->
     <section id="banner">
-      <video autoplay muted loop playsinline class="lozad" data-poster="images/video_placeholder_yard_super_small.png">
+      <video autoplay muted loop playsinline class="lozad"
+        data-poster="images/index/video_placeholder_yard_super_small.png">
         <source src="videos/banner_video_ultra_high_quality.mp4" type="video/mp4">
         <source src="videos/banner_video_ultra_high_quality.webm" type="video/webm">
         <source src="videos/banner_video_ultra_high_quality.ogg" type="video/ogg">
       </video>
-      <a href="#two" class="more scrolly">Explore</a>
+      <a href="#performances" class="more scrolly">Explore</a>
     </section>
 
 
     <!-- Two -->
-    <section id="two" class="wrapper alt style2">
-      <h2 style="color:#fff;margin:10px;padding-left:6.5em;padding-top:0;">Performances</h2>
+    <section id="performances" class="wrapper alt style2">
+      <header>
+        <h2>Performances</h2>
+      </header>
       <section class="spotlight">
-        <div class="image"><img class="lozad" data-src="images/performances/1.jpg" alt="" /></div>
+        <div class="image">
+          <img class="lozad" data-src="images/index/performances/1.jpg" alt="" />
+        </div>
         <div class="content">
           <h3>Performing Ornaments</h2>
             <p>An interactive installation, where the visitors can create visuals while dancing with their hands.</p>
         </div>
       </section>
       <section class="spotlight">
-        <div class="image"><img class="lozad" data-src="images/performances/2.png" alt="" /></div>
+        <div class="image"><img class="lozad" data-src="images/index/performances/2.png" alt="" /></div>
         <div class="content">
           <h3>Live Visuals Performance</h2>
             <p>Performing live for a dj set by Shamanic Boy at Schmiede 2021.</p>
         </div>
       </section>
       <section class="spotlight">
-        <div class="image"><img class="lozad" data-src="images/performances/3.png" alt="" /></div>
+        <div class="image"><img class="lozad" data-src="images/index/performances/3.png" alt="" /></div>
         <div class="content">
           <h3>Herrin Gedeck</h2>
             <p>Herrin Gedeck joins female artists of various backgrounds in one performance installation exploring
@@ -107,36 +113,78 @@
       </section>
     </section>
 
-    <section id="gallery" class="wrapper style4">
-      <h2>Gallery</h2>
-      <div class="carousel" data-flickity="{ 'lazyLoad': true }">
+    <section id="gallery" class="wrapper">
+      <header>
+        <h2>Gallery</h2>
+      </header>
+      <div class="inner">
 
-
-        <div class=" carousel-cell">
-          <img class="carousel-cell-image" data-flickity-lazyload="" alt="" />
+        <div class="box alt">
+          <div class="row gtr-50 gtr-uniform" id="gallery">
+            <div class="col-3"><span class="image fit"><img src="images/index/gallery/_MG_9053small.jpg" alt=""></span>
+            </div>
+            <div class="col-3"><span class="image fit"><img src="images/index/gallery/LPT-27 small.jpg" alt=""></span>
+            </div>
+            <div class="col-3"><span class="image fit"><img src="images/index/gallery/_MG_9053small.jpg" alt=""></span>
+            </div>
+            <div class="col-3"><span class="image fit"><img src="images/index/performances/1.jpg" alt=""></span></div>
+            <div class="col-3"><span class="image fit"><img src="images/index/performances/1.jpg" alt=""></span></div>
+            <div class="col-3"><span class="image fit"><img src="images/index/performances/1.jpg" alt=""></span></div>
+            <div class="col-3"><span class="image fit"><img src="images/index/gallery/LPT-27 small.jpg" alt=""></span>
+            </div>
+            <div class="col-3"><span class="image fit"><img src="images/index/performances/1.jpg" alt=""></span></div>
+            <div class="col-3"><span class="image fit"><img src="images/index/performances/1.jpg" alt=""></span></div>
+            <div class="col-3"><span class="image fit"><img src="images/index/performances/1.jpg" alt=""></span></div>
+            <div class="col-3"><span class="image fit"><img src="images/index/performances/1.jpg" alt=""></span></div>
+            <div class="col-3"><span class="image fit"><img src="images/index/performances/1.jpg" alt=""></span></div>
+          </div>
         </div>
 
       </div>
+
     </section>
 
-    <section id="three" class="wrapper style3 special">
+    <section id="three" class="wrapper">
+      <header>
+        <h2>About</h2>
+      </header>
       <div class="inner">
-        <header class="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
-          <p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br>
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-        </header>
+        <article>
+          <p>
+            <span class="image left"><img src="images/index/me.jpg" alt="" /></span>
+            Hi my name is Konstantina Angeletou I' m a 2&3D Creative Computational Designer, currently I'm exploring
+            various light painting techniques mainly by using motion capture.
+          </p>
+        </article>
       </div>
+
     </section>
+
+    <div class="clearfix"></div>
 
     <!-- Footer -->
     <footer id="footer">
       <ul class="icons">
-        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-        <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-        <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+        <li>
+          <a href="https://facebook.com/ludik.studio" class="icon brands fa-facebook-f">
+            <span class="label">Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com/ludik.studio" class="icon brands fa-instagram">
+            <span class="label">Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://youtube.com/ludik.studio" class="icon brands fa-youtube">
+            <span class="label">Youtube</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:hello@ludik.studio?subject=hello" class="icon solid fa-envelope">
+            <span class="label">Email</span>
+          </a>
+        </li>
       </ul>
       <ul class="copyright">
         <li>&copy; Konstantina Angeletou</li>
@@ -146,15 +194,23 @@
 
   </div>
 
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
-  <script type="text/javascript" src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script type="text/javascript" src="assets/js/jquery.min.js"></script>
   <script type="text/javascript" src="assets/js/jquery.scrollex.min.js"></script>
   <script type="text/javascript" src="assets/js/jquery.scrolly.min.js"></script>
   <script type="text/javascript" src="assets/js/browser.min.js"></script>
   <script type="text/javascript" src="assets/js/breakpoints.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
   <script type="text/javascript" src="assets/js/util.js"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>
+  <script type="module">
+    import PhotoSwipeLightbox from '/assets/js/photoswipe-lightbox.esm.js';
+    const lightbox = new PhotoSwipeLightbox({
+      gallery: '#gallery',
+      children: 'img',
+      pswpModule: '/assets/js/photoswipe.esm.js'
+    });
+    lightbox.init();
+  </script>
 
 </body>
 

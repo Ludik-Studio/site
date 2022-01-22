@@ -627,6 +627,8 @@ button,
 
   @include breakpoint("<=medium") {
     display: block;
+    margin: unset;
+    margin-bottom: 2em;
 
     br {
       display: none;
@@ -878,7 +880,7 @@ button,
   }
 
   &.style2 {
-    background-image: url("/images/background-1.jpg");
+    background-image: url("/images/index/background-1.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -903,6 +905,16 @@ button,
 
   @include breakpoint("<=small") {
     @include padding(3em, 2em);
+  }
+}
+
+section.wrapper {
+  > header {
+    margin: 1em 12em 2em;
+
+    @include breakpoint("<=medium") {
+      margin: 1em 2em 2em;
+    }
   }
 }
 
@@ -1269,6 +1281,12 @@ body.is-preload {
   }
 }
 
+/* Performances */
+#performances {
+  margin-top: 4em;
+  padding-top: 4em;
+}
+
 /* CTA */
 
 #cta {
@@ -1442,6 +1460,17 @@ body.is-mobile {
   }
 }
 
+/* Carousel */
+
+.carousel {
+  background: #000;
+}
+
+.carousel img {
+  display: block;
+  height: 200px;
+}
+
 /* Landing */
 
 body.landing {
@@ -1485,9 +1514,7 @@ body.landing {
   .network {
     box-sizing: border-box;
     padding: 20px;
-    // outline: 2px solid blue;
     flex: 1;
-
     text-align: center;
   }
 
@@ -1520,4 +1547,10 @@ body.is-mobile {
       background-color: darken(_palette(bg), 8);
     }
   }
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
