@@ -581,14 +581,14 @@ button,
 .spotlight {
   @include vendor("align-items", "center");
   @include vendor("display", "flex");
-  border: 2px solid #410961;
-  background-color: rgba(42, 10, 102, 0.664);
+  border: 2px solid #030303;
+  background-color: rgba(36, 36, 36, 0.664);
   margin: 1em 12em 2em;
 
   .image {
     @include vendor("order", "1");
     border-radius: 0;
-    width: 40%;
+    width: 20%;
 
     img {
       border-radius: 0;
@@ -597,10 +597,10 @@ button,
   }
 
   .content {
-    @include padding(2em, 4em);
+    @include padding(2em, 2em);
     @include vendor("order", "2");
-    max-width: 48em;
-    width: 60%;
+    // max-width: 88em;
+    width: 80%;
   }
 
   // &:nth-child(2n) {
@@ -859,7 +859,7 @@ button,
   @include padding(6em, 0);
 
   > .inner {
-    width: 60em;
+    width: 85em;
     margin: 0 auto;
 
     @include breakpoint("<=large") {
@@ -883,7 +883,7 @@ button,
     background-image: url("/images/index/background-1.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     // background-color: _palette(bg);
   }
 
@@ -1194,8 +1194,8 @@ body.is-menu-visible {
     border: none;
     bottom: 0;
     color: inherit;
-    font-size: 0.8em;
-    height: 8.5em;
+    font-size: 1em;
+    height: 7.5em;
     left: 50%;
     letter-spacing: _size(letter-spacing-alt);
     margin-left: -8.5em;
@@ -1216,7 +1216,7 @@ body.is-menu-visible {
       bottom: 4em;
       content: "";
       display: block;
-      height: 1.5em;
+      height: 1.1em;
       left: 50%;
       margin: 0 0 0 -0.75em;
       position: absolute;
