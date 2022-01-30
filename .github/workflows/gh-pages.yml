@@ -16,6 +16,9 @@ jobs:
       - name: Create public folder
         run: mkdir -p public/assets/css
 
+      - name: copy CNAME to public
+        run: cp CNAME public/CNAME
+
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.4.8
         with:
