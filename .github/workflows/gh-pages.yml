@@ -3,26 +3,39 @@ name: github pages
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
+      - main
   pull_request:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Checkout source Git branch
+        uses: actions/checkout@v2
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          # extended: true
+      - name: Create public folder
+        run: mkdir -p public/assets/css
 
-      - name: Build
-        run: hugo --minify
+      - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.4.8
+        with:
+          source: assets/sass/main.scss
+          destination: assets/css/main.css
+
+      - name: Copy CSS public
+        run: cp -R assets/css public/assets/css
+
+      - name: Copy JavaScript to public
+        run: cp -R assets/js public/assets/js
+
+      - name: Copy Images to public
+        run: cp -R images public
+
+      - name: Copy videos
+        run: cp -R videos public
+
+      - name: Copy index
+        run: cp index.html public/index.html
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
