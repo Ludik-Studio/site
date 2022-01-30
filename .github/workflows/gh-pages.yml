@@ -19,8 +19,17 @@ jobs:
       - name: copy CNAME to public
         run: cp CNAME public/CNAME
 
-      - name: Copy CSS public
-        run: cp -r assets/css public/assets/css
+      - name: Copy CSS to public
+        run: cp assets/css/fontawesome-all.min.css public/assets/css/fontawesome-all.min.css
+
+      - name: Copy CSS to public
+        run: cp assets/css/noscript.css public/assets/css/noscript.css
+
+      - name: Copy CSS to public
+        run: cp assets/css/photoswipe.css public/assets/css/photoswipe.css
+
+      - name: Copy CSS to public
+        run: cp -r assets/css/images public/assets/css/images
 
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.4.8
