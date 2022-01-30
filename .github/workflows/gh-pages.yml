@@ -23,7 +23,7 @@ jobs:
         run: cp assets/css/fontawesome-all.min.css public/assets/css/fontawesome-all.min.css
 
       - name: Copy webfonts to public
-        run: cp assets/webfonts public/assets/webfonts
+        run: cp -r assets/webfonts public/assets/webfonts
 
       - name: Copy CSS to public
         run: cp assets/css/noscript.css public/assets/css/noscript.css
