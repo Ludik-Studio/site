@@ -1240,7 +1240,7 @@ body.is-menu-visible {
   }
 
   @include breakpoint("<=small") {
-    @include padding(7em, 3em);
+    // @include padding(7em, 3em);
     height: auto;
     min-height: 0;
 
